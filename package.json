@@ -1,5 +1,5 @@
 {
-  "name": "tronstation",
+  "name": "tronscan/tronstation",
   "version": "1.0.1",
   "description": "Javascript API Library for estimating Tron energy and bandwidth consumption based on Tron network.",
   "main": "dist/tronstation-sdk.node.js",
@@ -34,8 +34,8 @@
     "webpack-node-externals": "^1.7.2"
   },
   "author": {
-    "name": "Jackie",
-    "url": "https://github.com/shenyongri110"
+    "name": "Richard",
+    "url": "https://github.com/"
   },
   "contributors": [
     {
@@ -43,7 +43,7 @@
       "url": "https://github.com/Tron-US"
     }
   ],
-  "homepage": "https://github.com/TRON-US/tronstation-sdk",
+  "homepage": "",
   "license": "MIT",
-  "repository": "https://github.com/TRON-US/tronstation-sdk.git"
+  "repository": ""
 }
