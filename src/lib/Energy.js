@@ -15,7 +15,7 @@ export default class Energy extends Base {
             amount = this.apis.toTrx(amount);
 
         let totalEnergyWeight = await this.apis.getResourceByName('EnergyWeight');
-        let totalEnergyLimit = await this.apis.getChainParameterByName('getTotalEnergyLimit');
+        let totalEnergyLimit = await this.apis.getChainParameterByName('getTotalEnergyCurrentLimit');
         return (amount * (totalEnergyLimit ? totalEnergyLimit : this.defaultTotalEnergyLimit)) / totalEnergyWeight;
     }
 

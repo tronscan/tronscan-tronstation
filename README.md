@@ -10,7 +10,7 @@ Tron Station SDK is a library for estimating Tron energy and bandwidth consumpti
 - Version built for browsers with more than 0.25% market share
 
 Tron Station SDK is also compatible with frontend frameworks such as:
-- Angular 
+- Angular
 - React
 - Vue
 
@@ -149,5 +149,5 @@ const res = await tronStation.apis.getResourcesByName(['TotalNetLimit', 'TotalNe
 
 // 3. Get proposals by name.
 const res = await tronStation.apis.getChainParameterByName('getEnergyFee');
-const res = await tronStation.apis.getChainParametersByName(['getTotalEnergyLimit', 'getEnergyFee']);
+const res = await tronStation.apis.getChainParametersByName(['getTotalEnergyCurrentLimit', 'getEnergyFee']);
 ```
