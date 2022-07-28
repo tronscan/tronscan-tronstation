@@ -1,0 +1,49 @@
+{
+  "name": "tronstation",
+  "version": "1.0.1",
+  "description": "Javascript API Library for estimating Tron energy and bandwidth consumption based on Tron network.",
+  "main": "dist/tronstation-sdk.node.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "npm run clean && webpack --config webpack.config.js --progress --colors",
+    "clean": "rimraf dist",
+    "build:dev": "NODE_ENV=development npm run build",
+    "test": "node scripts/test-node.js && npx mocha 'test/**/*.test.js'",
+    "btest": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "babel-runtime": "^6.26.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-plugin-istanbul": "^5.0.1",
+    "babel-plugin-source-map-support": "^2.0.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "tronweb": "^2.6.4",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "author": {
+    "name": "Jackie",
+    "url": "https://github.com/shenyongri110"
+  },
+  "contributors": [
+    {
+      "name": "TRON",
+      "url": "https://github.com/Tron-US"
+    }
+  ],
+  "homepage": "https://github.com/TRON-US/tronstation-sdk",
+  "license": "MIT",
+  "repository": "https://github.com/TRON-US/tronstation-sdk.git"
+}
