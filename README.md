@@ -23,12 +23,12 @@ __[Tron Station SDK - NPM Package](https://www.npmjs.com/package/tronstation)__
 
 ### NPM
 ```bash
-> npm install tronstation
+> npm install @tronscanteam/tronstation
 ```
 
 ### Yarn
 ```bash
-> yarn add tronstation
+> yarn add @tronscanteam/tronstation
 ```
 
 ## Build Steps
@@ -59,7 +59,7 @@ If you'd like to download and build locally, please follow the steps below.
 ### Initialize TronWeb and create Tron Station SDK instance
 
 ```js
-import TronStation from 'tronstation';
+import TronStation from '@tronscanteam/tronstation';
 import TronWeb from 'tronweb';
 
 const fullNode = new HttpProvider('https://api.trongrid.io');
