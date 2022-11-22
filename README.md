@@ -18,7 +18,7 @@ You can also ship Tron Station SDK in a Chrome extension.
 
 ## Installation
 
-__[Tron Station SDK - NPM Package](https://www.npmjs.com/package/tronstation)__
+__[Tron Station SDK - NPM Package](https://www.npmjs.com/package/@tronscanteam/tronstation)__
 
 
 ### NPM
